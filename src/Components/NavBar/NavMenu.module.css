@@ -1,0 +1,45 @@
+.parent{
+    display: flex !important;
+    justify-content: flex-start !important;
+    background-color: #343a40 !important;
+    height: 8vh !important;
+    flex-direction: row-reverse !important;
+    gap: 30px !important;
+    position: relative;
+}
+
+.pgcolor{
+  background-color: #070720 !important;
+  overflow: hidden !important;
+    
+}
+.parent button{
+    color: #fff !important;
+    background-color: #fff !important;
+    padding: 3px 10px;
+    border: none !important;
+}
+.container{
+    background-color: #343a40 !important;
+    width: 40% !important;
+    position: absolute ;
+    z-index: 2 !important;
+    /* height: 30vh !important; */
+    /* display: none !important; */
+}
+
+.menu {
+    display: flex !important;
+}
+
+
+.hide
+{
+    display: none;
+}
+@media ( max-width : 991px){
+    .container {
+        width: 90% !important;
+        height: 30vh;
+    }
+}

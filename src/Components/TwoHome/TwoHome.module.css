@@ -1,0 +1,378 @@
+.parent {
+  width: 100%;
+  height: 200vh;
+  background-color: #070720 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+.parent .boxcontainer {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.parent .container {
+  width: 66.5%;
+  height: 95%;
+  background-color: #070720;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* border:  green solid 5px; */
+}
+/* Hna el parent bta3 el cards kolh */
+.parent .container .cards {
+  width: 230px;
+  height: 400px;
+  /* border: 3px solid gold; */
+}
+.container .image {
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+
+/* --------------Start the Inside paragraph from img----------------- */
+
+.container .insidePicture {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.insidePicture .header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 15px;
+  color: #fff;
+}
+.insidePicture .footer {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.insidePicture p {
+  padding: 2px 12px;
+  background-color: #3d3d3d;
+  color: #fff;
+  border-radius: 2px;
+}
+.insidePicture .topCard p {
+  background-color: #e53637;
+  padding: 0px 10px;
+}
+
+.container .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.container .textParagraph {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.textParagraph h5 {
+  color: #fff;
+  font-size: 15px;
+}
+.container .action {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  padding-top: 10px;
+}
+.action p {
+  font-size: 12px;
+  color: #fff;
+  background-color: #ffffff67;
+  padding: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* --------------End the Inside paragraph from img----------------- */
+.parent .container .cards {
+  width: 230px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container .paragraph {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.paragraph h5 {
+  color: #fff;
+  font-size: 15px;
+}
+.container .border {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.container .border p {
+  font-size: 12px;
+  color: #fff;
+  background-color: #ffffff67;
+  padding: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.parent .container .menu {
+  width: 100%;
+  height: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 10px;
+  border-left: #e53637 5px solid;
+}
+.parent .container .menu a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.parent .menu h5 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.parent .cards .card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* border: 5px solid brown; */
+}
+.bgConainer {
+  /* border: 3px solid gold; */
+  height: 95%;
+  display: flex;
+  gap: 20px;
+}
+.parent .cards .dataCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* border: gold solid 10px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.dataCard .topCard {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 15px;
+  /* background-color: #3d3d3d; */
+  color: #fff;
+}
+.dataCard .bottomCard {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.dataCard p {
+  padding: 2px 12px;
+  background-color: #3d3d3d;
+  color: #fff;
+  border-radius: 5px;
+}
+.dataCard .topCard p {
+  background-color: #e53637;
+  padding: 0px 10px;
+}
+/* New Container bta3t el left */
+.parent .leftContainer {
+  width: 380px;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.parent .leftCards {
+  width: 400px;
+  height: 100%;
+  /* border-right: 3px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.leftCards .Text {
+  width: 100%;
+  height: 3%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 10px;
+  align-items: center;
+  flex-direction: row;
+  border-left: 5px solid #e53637;
+}
+.leftCards ul,
+li {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.leftCards .Text a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 13px;
+}
+.leftCards .Text h5 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.leftCards .card {
+  width: 90%;
+  height: 220px;
+  position: relative;
+}
+.leftCards .card img {
+  width: 100%;
+  height: 100%;
+}
+.leftCards .cardText {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1f1e1e1c;
+  /* padding: 20px 0; */
+}
+.leftCards .header {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  /* border: 3px solid green; */
+  padding: 4px 10px;
+}
+.leftCards .card p {
+  background-color: #e53637;
+  padding: 2px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.leftCards .card p:nth-child(2) {
+  background-color: transparent;
+}
+.card span {
+  background-color: #3d3d3d;
+  padding: 2px 15px;
+  border-radius: 5px;
+}
+.leftCards .footer {
+  width: 95%;
+  height: 25%;
+  color: #fff;
+  /* border: 3px solid green; */
+}
+.footer h4 {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 1334px) {
+  .parent {
+    height: auto !important;
+  }
+  .boxcontainer {
+    height: auto;
+    justify-content: space-evenly;
+  }
+  .leftContainer {
+    width: 100% !important;
+    flex-wrap: wrap;
+  }
+  .leftCards {
+    width: 100% !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    flex-wrap: wrap;
+  }
+  .leftContainer .card {
+    width: 350px;
+  }
+  .container {
+    height: auto !important;
+    width: auto !important;
+    justify-content: center !important;
+    padding: 30px 0 !important;
+    gap: 20px !important;
+  }
+  .container .card {
+    height: 70% !important;
+    width: 100% !important;
+  }
+}
